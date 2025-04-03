@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Balthazar&family=Boldonse&display=swap');
 @import "tailwindcss";
 
 html,
 body {
   height: 100vh;
+  font-family: "Balthazar", system-ui;
 }
 
 *,
