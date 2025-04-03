@@ -119,7 +119,7 @@ export default function Home() {
           style={{ scale: scaleProgress, opacity: opacityProgress }}
         >
           <h1 className="hero-title bg-gradient-to-r from-[#ff8c00] to-[#ff0080] text-transparent bg-clip-text text-9xl font-bold text-center drop-shadow-lg md:text-[200px] animate-background-shine">
-            Plura
+            Aevum
           </h1>
           <motion.p
             className="text-center text-xl md:text-2xl text-white max-w-3xl mx-auto mt-6 px-4 drop-shadow-md"
@@ -204,7 +204,7 @@ export default function Home() {
                 icon: <Smartphone className="h-8 w-8" />,
                 title: "Fully Responsive",
                 description:
-                  "All websites built with Plura look great on any device, from mobile to desktop.",
+                  "All websites built with Aevum look great on any device, from mobile to desktop.",
               },
               {
                 icon: <Wand2 className="h-8 w-8" />,
@@ -343,7 +343,7 @@ export default function Home() {
               What Our Users Say
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-gray-300">
-              Join thousands of satisfied customers building with Plura
+              Join thousands of satisfied customers building with Aevum
             </p>
           </motion.div>
 
@@ -355,7 +355,7 @@ export default function Home() {
                 image:
                   "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2lybHN8ZW58MHx8MHx8fDA%3D",
                 content:
-                  "Plura helped me create a professional website for my business in just a few hours. The templates are beautiful and the editor is so easy to use!",
+                  "Aevum helped me create a professional website for my business in just a few hours. The templates are beautiful and the editor is so easy to use!",
                 stars: 5,
               },
               {
@@ -364,7 +364,7 @@ export default function Home() {
                 image:
                   "https://images.unsplash.com/photo-1562788869-4ed32648eb72?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHJvZmVzc2lvbmFsJTIwbWFufGVufDB8fDB8fHww",
                 content:
-                  "As a designer, I appreciate the flexibility Plura offers. I can create custom designs for my clients quickly without compromising on quality.",
+                  "As a designer, I appreciate the flexibility Aevum offers. I can create custom designs for my clients quickly without compromising on quality.",
                 stars: 5,
               },
               {
@@ -373,7 +373,7 @@ export default function Home() {
                 image:
                   "https://images.unsplash.com/photo-1600107215508-1886e6e49c11?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTB8MTIxMDY3OTZ8fGVufDB8fHx8fA%3D%3D",
                 content:
-                  "We switched to Plura for our company website and couldn't be happier. The SEO tools and analytics have helped us increase our traffic by 40%.",
+                  "We switched to Aevum for our company website and couldn't be happier. The SEO tools and analytics have helped us increase our traffic by 40%.",
                 stars: 5,
               },
             ].map((testimonial, index) => (
@@ -582,7 +582,7 @@ export default function Home() {
               </h2>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                 Join thousands of users who are already creating stunning
-                websites with Plura
+                websites with Aevum
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
@@ -609,12 +609,12 @@ export default function Home() {
             <div className="lg:col-span-2">
               <Link href="/" className="flex items-center gap-2 mb-4">
                 <div className="h-8 w-8 rounded-full bg-gradient-to-r from-[#ee0979] to-[#ff6a00] flex items-center justify-center">
-                  <span className="text-white font-bold">P</span>
+                  <span className="text-white font-bold">A</span>
                 </div>
-                <span className="font-bold text-xl">Plura</span>
+                <span className="font-bold text-xl">Aevum</span>
               </Link>
               <p className="text-muted-foreground mb-4 max-w-md">
-                Plura is the all-in-one website builder that makes it easy to
+                Aevum is the all-in-one website builder that makes it easy to
                 create beautiful, professional websites without any coding
                 knowledge.
               </p>
@@ -703,7 +703,7 @@ export default function Home() {
 
           <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground mb-4 md:mb-0">
-              © {new Date().getFullYear()} Plura. All rights reserved.
+              © {new Date().getFullYear()} Aevum. All rights reserved.
             </p>
             <div className="flex gap-6">
               <Link
