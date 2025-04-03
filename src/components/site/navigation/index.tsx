@@ -7,7 +7,6 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import gsap from "gsap";
 import Link from "next/link";
-import { UserButton } from "@clerk/nextjs";
 
 type Props = {
   user?: null | User;
@@ -42,7 +41,7 @@ const Navigation: React.FC<Props> = ({ user }) => {
               transition={{ delay: 0.2, duration: 0.3 }}
             >
               <h3 className="font-bold text-3xl bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent">
-                Plura
+                Aevum.
               </h3>
             </motion.div>
           </Link>
